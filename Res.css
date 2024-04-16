@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Modern+Antiqua&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Workbench&display=swap');
+*{
+     font-family: "Oswald", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+ }
+ .imgs{
+        width: 10%;
+        height: 4%;
+ }
+ .navbar{
+        background-color:  #5f11a9;
+ }
+ 
+      
+ .nav-link{
+        color: black;
+        font-size: 20px;
+       
+ }
+ .bgimg{
+        background-image: url(https://images.hdqwalls.com/download/avengers-endgame-logo-4k-ih-1366x768.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position:center;
+        margin-top: 4%;
+ }
+ @media (max-width: 600px) {
+      .bgimg{
+          margin-top: 10%;
+
+           }
+  }
+
+  @media (max-width: 600px) {
+     .hm{
+         display: flex;
+         justify-content: center
+
+          }
+ }
+ @media (max-width: 600px) {
+     .card{
+         margin-bottom: 20%;
+         margin-top: 20%;
+
+          }
+ }
+ @media (max-width: 600px) {
+     .text{
+         text-align: center;
+
+          }
+ }
+
+ @media (max-width: 600px) {
+     .but{
+         margin-bottom: 10%;
+
+          }
+ }
+
+.head{
+        font-size: 100px;
+        color: whitesmoke;
+        margin-top: 5%;
+        text-shadow: 2px 3px 10px #5f11a9;
+}
+
+
+ .caimg{
+       aspect-ratio: 3/2;
+       width: 100%;
+ }
+
+ .card:hover{
+     transform: scale(1.2);
+ } 
+ .cardimg{
+       aspect-ratio: 4/4;
+       width: 100%;
+ }
+ .card-title{
+       color:whitesmoke;
+       text-shadow: 2px 3px 10px black;
+       
+ }
+ .card-body{
+       background-color: #5f11a9;
+ }
+ .card-text{
+       color: whitesmoke;
+ }
+ .form-label{
+       color: whitesmoke;
+       font-size: 20px;
+       font-weight: bold;
+       text-align: center;
+       text-shadow: 1px 2px 5px black;
+ }
+
+ .btnt{
+    
+       color: whitesmoke;
+       text-shadow: 1px 2px 5px black;
+       text-decoration: none;
+     
+ }
+ .btnt1{
+    
+     color: whitesmoke;
+     text-shadow: 1px 2px 10px #5f11a9;
+     text-decoration: none;
+   
+}
+ .bgcontact{
+     background-image: url(https://images.hdqwalls.com/download/avengers-endgame-logo-4k-ih-1366x768.jpg);
+ }
+ .formy{
+      font-size: 25px;
+      color: whitesmoke;
+      font-weight: bold;
+ }
+ .formy input[type="text"]{
+      border: none;
+      font-size: 18px;
+      margin-bottom: 2%;
+      box-shadow: 2px 3px 5px black;
+      border-radius: 25px;
+      padding: 2%;
+      width: 90%;
+      color: #7c0101;
+ }
+ .formy textarea{
+      border: none;
+      box-shadow: 2px 3px 5px black;
+      border-radius: 25px;
+      padding: o.8%;
+      width: 90%;
+ }
+ .cbtn{
+      background-color: whitesmoke;
+      color: #5f11a9; 
+      text-shadow: 1px  1px 2px black;
+      font-size: 25px;
+      width: 60%;
+      border: none;
+     
+
+ }
+ .cbtn:hover{
+      background-color: #5f11a9;
+      color: whitesmoke;
+      border: 1px solid whitesmoke;
+      transform: scale(1.2);
+ }
+ #navFooter .navAccessibility.navFooterVerticalColumn {
+      display: table;
+      
+  }
+  .navFooterLinkCaol {
+      display: inline-block;
+      vertical-align: top; 
+      margin-right: 20px;
+      margin-bottom: 20px;
+      }
+ .nav_a{
+     color: whitesmoke;
+     text-decoration: none;
+ }
+ @media (max-width: 600px) {
+      .map {
+          width: 100%;  
+          height: 300px;
+     }
+  }
+  .mg{
+     backdrop-filter: blur(10px);
+  }
+ 
